@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc5c12cca9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo0.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span> Anju </span> Shahu <br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------ABOUT---------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ab.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="space">
+                        To work with an organization where I can learn new skills and increase my abilities for the
+                        organizational
+                        goals as well as myself.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web Designing</li>
+                            <li><span>App Development</span><br>Web-App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-23</span><br>Front-end Development course from FCC,Open Weaver & Youtube</li>
+                            <li><span>2021</span><br>Editing,logo making for Youtuber</li>
+                            <li><span>2020</span><br>Online Trading </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-23</span><br>HTML,CSS,JavaScript from FCC, Open weaver &Youtube</li>
+                            <li><span>2019</span><br>Graduate from R.T.M.N.U</li>
+                            <li><span>2016</span><br>70%</li>
+                            <li><span>2014</span><br>84.60%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------Portfolio--------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list" id="mydiv">
+                <div class="work">
+                    <img src="images/weatherapp.jpg" alt="">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>The app gives the information about the Weather around the world.</p>
+                        <a href="weather App/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/yt.jpg" alt="">
+                    <div class="layer">
+                        <h3>Youtube Website</h3>
+                        <p>This website create for client,i add it on my project.</p>
+                        <a href="For Sell/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/calc.jpg" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Its a working Calculator made with html,css and JavaScript.</p>
+                        <a href="Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+
+                <div class="work invisible">
+                    <img src="images/qr.jpg" alt="">
+                    <div class="layer">
+                        <h3>QR Generator AI</h3>
+                        <p>The app generate the QR Code for anyone.</p>
+                        <a href="QR Generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work invisible">
+                    <img src="images/text.jpg" alt="">
+                    <div class="layer">
+                        <h3>Text-To-Speech AI</h3>
+                        <p>The app convert text to speech into many languages.</p>
+                        <a href="text to speech/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work invisible">
+                    <img src="images/quote.jpg" alt="">
+                    <div class="layer">
+                        <h3>Quote Generator</h3>
+                        <p>The app connects you to the talented people's quote.</p>
+                        <a href="Quote Generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work invisible">
+                    <img src="images/mp.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The music app project  .</p>
+                        <a href="Music Player/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work invisible">
+                    <img src="images/comming soon.jpg" alt="">
+                    <div class="layer">
+                        <h3>Comming Soon Page</h3>
+                        <p>The comming soon page project contains animation.</p>
+                        <a href="Comming Soon Page/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work invisible">
+                    <img src="images/analog clock.jpg" alt="">
+                    <div class="layer">
+                        <h3>Analog Clock</h3>
+                        <p>The clock webapp shows the current time of India.</p>
+                        <a href="Analog Clock/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" id="btn">See Less</a>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- -------------------------Contact Form------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i> anjushahu997@gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt"></i> +91 9511262012</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/AjTheGalaxy"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/aj_the_galaxy?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anju-shahu-a7ba07222/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://app.netlify.com/teams/ajthegalaxy/overview"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    <a href="images/0.jpg" download class="btn btn2">Download CV</a>
+                    <a href="images/html,css certificate.pdf" download class="btn btn2">Open Weaver Certificate</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © AJ. Made with <i class="fas fa-heart"></i> by Anju Shahu</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <!-- ------for respnosive sidemenu------ -->
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <!-- -----Submit btn------ -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyveakCeOAhEQa1ENr3zLf_3gItVB2MmgudV1D_nqkUgDIBq-TELjWhO88npr4GV8pRxg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <!-- ---see more/less---------- -->
+    <script>
+
+        document.getElementById("btn").addEventListener("click", function () {
+            var mybox = document.getElementById("mydiv");
+
+            if (mybox.style.display == "none") {
+                mybox.style.display = "grid";
+                btn.innerHTML = "See Less";
+            }
+            else {
+                mybox.style.display = "none";
+                btn.innerHTML = "See More";
+            }
+        })
+
+    </script>
+
+</body>
+
+</html>
